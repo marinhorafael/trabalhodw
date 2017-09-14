@@ -1,0 +1,120 @@
+h1{
+			color: black;
+			font-family: Arial;
+			font-weight: normal;
+			background-color:powderblue;
+			border-radius: 5px;
+		}
+		
+		legend{
+			font-family: Arial;	
+			font-size:110%;
+		}	
+		
+		#intro{
+			background-color:black;
+			font-family: Arial;	
+			color:white;
+			border:1px solid grey;
+			padding:10px;
+			margin:30px;
+			font-size:140%;
+			border-radius: 5px;
+		}
+		
+		input[type="text"].basic{
+			width: 200px;/*comprimento*/
+			height: 30px;/*altura*/
+			background: #fff;/*cor das caixas*/
+			padding: 1px;/*space inside the border*/
+			font-size: 15px;/*tamanho fonte dentro da caixa*/
+			border: 1px solid black;/*property for borders*/
+			border-radius: 5px;/*arredondar borda*/
+			transition: all 0.3s ease;
+			margin-right: 1em;
+		}
+		
+		input[type="text"].diames{
+			width: 30px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].ano{
+			width: 40px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].cpf{
+			width: 130px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].cep{
+			width: 130px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].endereco{
+			width: 300px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].telefone{
+			width: 150px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].celular{
+			width: 150px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+		
+		input[type="text"].cartao{
+			width: 200px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+	
+		input[type="submit"]{
+			display: block;
+			background: black;
+			width: 314px;
+			padding: 12px;
+			cursor: pointer;
+			color: white;
+			border: 1px solid black;
+			margin: auto;
+			border-radius: 5px;
+			font-size: 17px;
+			transition: all 0.3s ease;
+			float:  left;
+			margin-left: 18em;
+		}
+	
+		#Titulo{
+			margin:20px; 
+			font-family: Arial;
+		}
+	
+		select.basic{
+			/*display: block;*//*forma como será exibida*/
+			width: 120px;/*comprimento*/
+			height: 33px;/*altura*/
+			/*margin: 10px;alinhamento das caixas*/
+			background: #fff;/*cor das caixas*/
+			padding: 1px;/*space inside the border*/
+			font-size: 15px;/*tamanho fonte dentro da caixa*/
+			border: 1px solid black;/*property for borders*/
+			/*transition: all 1s ease;*/
+			border-radius: 5px;/*arredondar borda*/
+		}
+		
+		select.bandeira{
+			width: 150px;/*comprimento*/
+			height: 30px;/*altura*/
+		}
+	
+		fieldset{
+			width:900px;
+			border-radius: 5px;
+			margin:33px; 
+		}
