@@ -1,0 +1,83 @@
+<!doctype>
+<html lang="pt-BR">
+	<head>
+	    <title>Formulário Trabalho DW</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<form name="cadastro" onsubmit="return valida()">
+			<div>
+				<label>Nome</label>
+				<input id="nome" id="" pattern="[a-zA-Z]+" type="text"></input>
+			</div>
+			<div>
+				<label>Sobrenome</label>
+				<input id="sobrenome" pattern="[a-zA-Z]+" type="text"></input>
+			</div>
+			<div>
+				<label>Sexo</label>
+				<input id="sexo"></input>
+			</div>
+			<div>
+				<label>Data Nascimento</label>
+				<input id="datanascimento"></input>
+			</div>
+			<div>
+				<label>CPF</label>
+				<input id="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+				title="Digite o CPF no formato nnn.nnn.nnn-nn" type="text"></input>
+			</div>
+			<div>
+				<label>Estado</label>
+				<input id="estado"></input>
+			</div>
+			<div>
+				<label>Cidade</label>
+				<input id="cidade" pattern="[a-zA-Z]+" type="text"></input>
+			</div>
+			<div>
+				<label>Bairro</label>
+				<input id="bairro" pattern="[a-zA-Z]+" type="text"></input>
+			</div>
+			<div>
+				<label>CEP</label>
+				<input id="cep"></input>
+			</div>
+			<div>
+				<label>Endereço</label>
+				<input id="endereco"></input>
+			</div>
+			<div>
+				<label>Referência</label>
+				<input id="referencia"></input>
+			</div>
+			<div>
+				<label>RG</label>
+				<input id="rg"></input>
+			</div>
+			<div>
+				<label>Telefone</label>
+				<input id="tel" pattern="^\d{2}-\d{4}-\d{4}$" type="tel"></input>
+			</div>
+			<div>
+				<label>Celular</label>
+				<input id="celular" pattern="^\d{2}-\d{4}-\d{4}$" type="tel"></input>
+			</div>
+			<div>
+				<label>Nº Cartão Crédito</label>
+				<input id="cartao credito"></input>
+			</div>
+			<div>
+				<label for="teste">Bandeira</label>
+				<input id="bandeira"></input>
+			</div>
+			<div>
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+		<script type="text/javascript" src="script.js">
+	</body>
+</html>
